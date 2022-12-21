@@ -43,7 +43,7 @@ extern char **environ;
 
 /**
  * struct liststr - singly linked list
- * @num: number field
+ * @num: the number field
  * @str: a string
  * @next: points to the next node
  */

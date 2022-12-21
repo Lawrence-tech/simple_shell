@@ -99,8 +99,12 @@ char *convert_number(long int num, int base, int flags)
 		n = -num;
 		sign = '-';
 	}
+<<<<<<< HEAD
 	array = flags & CONVERT_LOWERCASE ? "0123456789abcdef" :
 		"0123456789ABCDEF";
+=======
+	array = flags & CONVERT_LOWERCASE ? "0123456789abcdef" : "0123456789ABCDEF";
+>>>>>>> 786526e52756e9e0003bcd5585c0809f143a6c1d
 	ptr = &buffer[49];
 	*ptr = '\0';
 
