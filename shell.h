@@ -13,9 +13,6 @@
 #include <errno.h>
 
 
-/* for test pID function */
-pid_t getpid(void);
-
 /* for read/write buffers */
 #define READ_BUF_SIZE 1024
 #define WRITE_BUF_SIZE 1024
