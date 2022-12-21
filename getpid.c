@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include "shell.h"
 
 /**
   *main - provides parent Id
@@ -7,6 +8,9 @@
 
 int main(void)
 {
-	printf("shell getpid %d\n")
-		return (0);
+	pid_t my_pid;
+
+	my_pid = getpid();
+	printf("%u\n", my_pid);
+	return (0);
 }
