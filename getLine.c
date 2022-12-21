@@ -79,7 +79,7 @@ ssize_t get_input(info_t *info)
 		*buf_p = p;
 		return (_strlen(p));
 	}
-	*buf_p = p;
+	/* *buf_p = p;*/
 	return (r);
 }
 
