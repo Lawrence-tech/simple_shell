@@ -1,4 +1,6 @@
-#include "shell.h"
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
 
 /**
   *_strncpy - copies a string
@@ -49,7 +51,7 @@ char *_strncat(char *dest, char *src, int n)
 		i++;
 	while (src[j] != '\0' && j < n)
 	{
-		/*dest[i] != src[j];*/
+		/*dest[j] != src[j];*/
 		i++;
 		j++;
 	}
